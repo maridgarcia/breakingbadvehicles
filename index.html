@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Breaking Bad Cars</title>
+</head>
+<body>
+    <header class="header"> 
+        <h1>The Breaking Bad Vehicles Database</h1> 
+    </header>
+    <main>
+        <div id="loading-spinner">
+            <img 
+                src="https://cdn.dribbble.com/users/841405/screenshots/2541549/media/ec96a262a79a8e3be942eac7f82f46bf.gif" 
+                alt="Loading..."
+                class="loading-gif"
+            >
+        </div>
+        <div class="search-bar">
+            <input type="text" name="input-search" id="search" placeholder="Search here">
+        </div>
+        <div class="content-body">
+            <table id="table-container"></table>
+        </div>
+        <div id="notFoundMessage" style="display: none;">Not found</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
