@@ -5,6 +5,8 @@
 ### The database is still in construction, so feel free to contact me if you have any suggestions!
 Don't forget to checkout the API: [API Repository](https://github.com/maridgarcia/breaking_bad_api) / [Endpoint](https://breakingbadcars.cyclic.app/)
 
+## Checkout the database here: https://breakingbadcarsdatabase.netlify.app/
+
 ## Technologies used in the project:
 
 <div style="display: flex; justify-content: space-around">
